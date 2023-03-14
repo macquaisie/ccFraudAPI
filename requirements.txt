@@ -6,6 +6,5 @@ pickle-mixin
 requests
 scikit-learn
 keras==2.11
-tensorflow
 pandas
 numpy
