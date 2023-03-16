@@ -100,7 +100,7 @@ def ccmodel_pred(input_parameters : model_input):
     
     prediction = cc_model3.predict([input_list])
     
-    if (prediction[0] <= 0.6):
+    if (prediction[0] <= 0.8):
         return 0
     else:
         return 1
